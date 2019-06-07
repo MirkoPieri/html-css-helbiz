@@ -120,7 +120,7 @@ nav .menu .language .border {
 
 /* blocco 1 a 2 colonne */
 .blocco1 {
-  margin-top: 50px;
+  margin: 100px 0;
 }
 
 .blocco1:after {
