@@ -8,6 +8,8 @@
 body {
   font-family: Open Sans,sans-serif;
 }
+
+/* header */
 .menu {
   width: 90%;
   margin: 0 auto;
@@ -18,6 +20,7 @@ nav {
   position: fixed;
   z-index: 9999;
   height: 50px;
+  background: white;
 }
 
 nav::after {
@@ -64,4 +67,43 @@ nav .menu .language {
 nav .menu .language .border {
   border-right: 1px solid gray;
   padding-right: 5px;
+}
+
+/* princupale blocco 0 */
+.blocco0 {
+  padding-top: 50px;
+  height: 500px;
+  background-image: url("immagini/sfondoabloc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blocco0::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blocco0 .text {
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+}
+
+.blocco0 .text h1 {
+  font-size: 40pt;
+}
+
+.blocco0 .text p {
+  font-size: 15pt;
+  padding-top: 10px;
+}
+
+.socialstore {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.socialstore img {
+  padding-left: 10px;
 }
