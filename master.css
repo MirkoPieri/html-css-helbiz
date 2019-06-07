@@ -11,12 +11,12 @@ body {
 
 /* header */
 .menu {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .tworow {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -130,7 +130,7 @@ nav .menu .language .border {
 }
 
 .blocco1 .col {
-  float: left;;
+  float: left;
   width: calc(98% / 2);
   background-color: #FAFAFA;
 }
@@ -161,9 +161,8 @@ nav .menu .language .border {
 }
 
 .blocco1 img {
-  height: 350px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  height: 500px;
+  padding: 40px 0;
 }
 
 #coming {
