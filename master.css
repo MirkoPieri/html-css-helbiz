@@ -1,0 +1,67 @@
+/* definizioni generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans,sans-serif;
+}
+.menu {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  height: 50px;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  width: 20%;
+  padding: 20px 0;
+  float: left;
+}
+
+.navmenu {
+  padding: 25px 0;
+  float: left;
+  width: 60%;
+}
+
+nav .menu .navmenu li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+nav .menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 8pt;
+  color: #000000;
+}
+
+nav .menu a:hover {
+  text-decoration: underline;
+}
+
+nav .menu .language {
+  padding: 25px 0;
+  width: 20%;
+  float: right;
+}
+
+nav .menu .language .border {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+}
