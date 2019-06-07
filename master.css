@@ -15,6 +15,16 @@ body {
   margin: 0 auto;
 }
 
+.tworow {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.textcol {
+  padding-top: 40px;
+  text-align: center;
+}
+
 nav {
   width: 100%;
   position: fixed;
@@ -106,4 +116,56 @@ nav .menu .language .border {
 
 .socialstore img {
   padding-left: 10px;
+}
+
+/* blocco 1 a 2 colonne */
+.blocco1 {
+  margin-top: 50px;
+}
+
+.blocco1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blocco1 .col {
+  float: left;;
+  width: calc(98% / 2);
+  background-color: #FAFAFA;
+}
+
+.blocco1 .col:first-child {
+  margin-right: 2%;
+}
+
+.blocco1 .col h2 {
+  text-transform: uppercase;
+  font-size: 30pt;
+  padding-bottom: 35px;
+}
+
+.blocco1 .col p {
+  font-size: 18pt;
+}
+
+.blocco1 .col a {
+  font-size: 18pt;
+  text-decoration: none;
+  color: #0070CB;
+  padding-top: 35px;
+}
+
+.blocco1 .col a:hover {
+  text-decoration: underline;
+}
+
+.blocco1 img {
+  height: 350px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#coming {
+  color: #0070CB;
 }
