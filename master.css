@@ -11,7 +11,7 @@ body {
 
 /* header */
 .menu {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@ nav .menu .language .border {
 }
 
 .socialstore img {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 /* blocco 1 a 2 colonne */
@@ -168,4 +168,61 @@ nav .menu .language .border {
 
 #coming {
   color: #0070CB;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer_up {
+  border-bottom: 1px solid #696969;
+  padding: 100px 0;
+}
+
+.footer_center {
+  border-bottom: 1px solid #696969;
+  padding: 20px 0;
+}
+
+.footer_down {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+footer .footer_up::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .footer_center::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .menu .col_footer {
+  float: left;
+  width: calc(100% / 4);
+}
+
+footer .menu .col_footer h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .menu .col_footer a {
+  display: flex;
+  color: #696969;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+footer .menu .footer_center .col_footer a {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+footer .menu .footer_down .socialstore a img {
+  border-radius: 10px;
 }
